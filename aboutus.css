@@ -1,0 +1,92 @@
+
+/* Who we are designing */
+.about{
+    height: 60rem;
+    padding: 4% 20%;
+    line-height: 28px;
+    box-sizing: border-box;
+    /* background-color: crimson; */
+}
+.about-area{
+    /* background-color: chocolate; */
+    width: 85%;
+    padding: 40px;
+    display: block;
+}
+.about h1 span{
+    color: #FF7619;
+    /* opacity: 0.6; */
+}
+.about p{
+    text-align: justify;
+    opacity: 0.7;
+    /* background-color: cyan; */
+    font-size: 19px;
+}
+
+/* Emergency call */
+.eme-call{
+    height: 300px;
+    margin-top: 0px;
+    width: 100%;
+    background: #243238;
+    background-image: linear-gradient(rgba(255,255,255,0.6),rgba(255,255,255,0.6)), url("temp.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    /* box-sizing: border-box; */
+}
+.eme-info p:first-child{
+    /* position: absolute; */
+    color: #202a30;
+    text-transform: uppercase;
+    /* top:25%;
+    left:20%; */
+    display: block;
+    /* background-color: chartreuse; */
+    text-align: center;
+    font-size: 35px;
+}
+.eme-info p{
+    margin: 2rem;
+}
+.eme-info::before{
+    padding-top: 2%;
+    content: "Did not find your answer?";
+    color: #ffffff;
+    display: block;
+    text-align: center;
+    font-weight: bold;
+    font-size: 25px;
+    /* background-color: cadetblue; */
+}
+
+/* About us card design  */
+.about-us-card-area{
+    width: 68%;
+    padding: 25px 20px;
+    margin: 5rem 0 40px 12rem;
+    /* background-color: olive; */
+    height: 150rem;
+    position: relative;
+    display: flex;
+    align-items: space-around;
+    flex-flow: row wrap;
+}
+.about-us-card-area > p{
+    text-align: justify;
+    opacity: 0.8;
+}  
+.about-us-card-area > div{
+    width: 43%;
+    box-sizing: border-box;
+    background-color: greenyellow;
+    height: 46rem;
+    /* border: 1px solid rgb(206, 204, 204); */
+    box-shadow: 1px 1px 8px rgb(90, 88, 88);
+    padding: 23px;
+    text-align: justify;
+    background: url("donate.jpg");
+    margin-left: 4rem;
+}
+
